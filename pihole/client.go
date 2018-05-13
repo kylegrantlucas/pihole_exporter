@@ -18,12 +18,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/prometheus/common/log"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 
-	"github.com/nlamirault/pihole_exporter/version"
+	"github.com/prometheus/common/log"
+
+	"github.com/kylegrantlucas/pihole_exporter/version"
 )
 
 const (
